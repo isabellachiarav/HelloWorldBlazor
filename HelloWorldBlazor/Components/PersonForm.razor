@@ -1,0 +1,18 @@
+﻿<input type="text"
+        @bind="_firstName"
+        @bind:event="oninput"/>
+
+<div>
+    @_firstName
+</div>
+<input type="text"
+        @bind="_lastName"
+        @bind:event="oninput"/>
+
+<div>
+    @_lastName
+</div>
+
+<button @onclick="AddPersonOnClick">
+    Add Person
+</button>

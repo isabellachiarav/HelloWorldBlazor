@@ -19,6 +19,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Components/PersonForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQZXJzb25Gb3JtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Components/PersonRenderer.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQZXJzb25SZW5kZXJlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

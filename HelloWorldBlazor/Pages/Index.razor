@@ -9,12 +9,20 @@
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
-<PersonRenderer Person="Person"/>
+
+<PersonForm AddPersonEventCallback="AddPersonOnClickEventCallback"/>
+
+@foreach(IPerson person in PersonRepository.GetPeople())
+{
+   <PersonRenderer Person="person"/> 
+}
 
 @code {
-    private IPerson Person = new Person
+    [Inject]
+    private IPersonRepository PersonRepository { get; set; }
+
+    private void AddPersonOnClickEventCallback()
     {
-        FirstName = "Isabella",
-        LastName = "Chiaravalloti"
-    };
+        StateHasChanged();
+    }
 }

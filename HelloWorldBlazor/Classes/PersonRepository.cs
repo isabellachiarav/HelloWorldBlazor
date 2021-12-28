@@ -42,7 +42,7 @@ namespace HelloWorldBlazor.Classes
 
         public bool TryDeletePerson(Guid id)
         {
-            IPerson persistedInstance = _people.FirstOrDefault(p => p.Id == person.Id);
+            IPerson persistedInstance = _people.FirstOrDefault(p => p.Id == id);
 
             if (persistedInstance is null)
                 return false;
