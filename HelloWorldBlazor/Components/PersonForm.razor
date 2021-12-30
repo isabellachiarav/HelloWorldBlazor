@@ -1,4 +1,7 @@
-﻿<input type="text"
+﻿@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+
+<input type="text"
         @bind="_firstName"
         @bind:event="oninput"/>
 
@@ -16,3 +19,32 @@
 <button @onclick="AddPersonOnClick">
     Add Person
 </button>
+
+ <div style="max-width: 400px;">
+    <MudCard>
+        <MudCardContent>
+            <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
+                <MudTextField T="string" Label="First Name" Required="true" RequiredError="First name is required!"/>
+                <MudTextField T="string" Label="Last Name" Required="true" RequiredError="Last name is required!"/>
+            </MudForm>
+        </MudCardContent>
+        <MudCardActions>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!success)" Class="ml-auto">Update</MudButton>
+        </MudCardActions>
+    </MudCard>
+    
+    <MudPaper Class="pa-4 justify-center my-4 mud-text-align-center">
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(()=>form.Validate())">Validate</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="@(()=>form.Reset())" Class="mx-2">Reset</MudButton>
+        <MudButton Variant="Variant.Filled" OnClick="@(()=>form.ResetValidation())">Reset Validation</MudButton>
+    </MudPaper>
+
+    <MudExpansionPanels>
+        <MudExpansionPanel Text="@($"Show Errors ({errors.Length})")">
+            @foreach (var error in errors)
+            {
+                <MudText Color="@Color.Error">@error</MudText>
+            }
+        </MudExpansionPanel>
+    </MudExpansionPanels>
+</div>

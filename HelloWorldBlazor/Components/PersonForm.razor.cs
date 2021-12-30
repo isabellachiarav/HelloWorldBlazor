@@ -1,6 +1,7 @@
 ﻿using HelloWorldBlazor.Classes;
 using HelloWorldBlazor.Interfaces;
 using Microsoft.AspNetCore.Components;
+using MudBlazor;
 
 namespace HelloWorldBlazor.Components
 {
@@ -21,6 +22,18 @@ namespace HelloWorldBlazor.Components
 
             if(AddPersonEventCallback.HasDelegate)
                 AddPersonEventCallback.InvokeAsync();
+
+            PersonRepository.TryUpdatePerson(new Person(_firstName, _lastName));
+
+
         }
+
+        bool success;
+        string[] errors = { };
+
+
+
+
+
     }
 }
