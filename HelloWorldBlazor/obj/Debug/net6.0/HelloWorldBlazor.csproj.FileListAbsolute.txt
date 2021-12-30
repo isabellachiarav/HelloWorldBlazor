@@ -17,11 +17,10 @@ C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug
 C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug\net6.0\HelloWorldBlazor.RazorAssemblyInfo.cs
 C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug\net6.0\scopedcss\bundle\HelloWorldBlazor.styles.css
-C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug\net6.0\scopedcss\projectbundle\HelloWorldBlazor.bundle.scp.css
 C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug\net6.0\HelloWorldBlazor.dll
 C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug\net6.0\ref\HelloWorldBlazor.dll
 C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug\net6.0\HelloWorldBlazor.pdb
 C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug\net6.0\HelloWorldBlazor.genruntimeconfig.cache
+C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\bin\Debug\net6.0\MudBlazor.dll
+C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\obj\Debug\net6.0\HelloWorldBlazor.csproj.CopyComplete
