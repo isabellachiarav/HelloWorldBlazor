@@ -12,9 +12,24 @@ namespace HelloWorldBlazor.Components
 
         [Parameter]
         public EventCallback AddPersonEventCallback { get; set; }
+        [Parameter]
+        public IPerson Person { get; set; }
 
         private string _firstName = string.Empty;
         private string _lastName = string.Empty;
+        private Guid? _previousPersonId = Guid.Empty;
+
+        protected override void OnParametersSet()
+        {
+            if((Person?.Id ?? null) != _previousPersonId)
+            {
+                Person = new Person(string.Empty, string.Empty);
+            }
+
+            _previousPersonId = Person.Id;
+
+            base.OnParametersSet();
+        }
 
         private void AddPersonOnClick()
         {

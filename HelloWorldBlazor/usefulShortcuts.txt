@@ -24,3 +24,7 @@ f5 // run WITH debugging
 f7 // when in .razor or .razor.cs file go to other
 
 f12 // Go to definition
+
+ctrl + r + r // refactor rename
+
+ctrl + shift + b // build (compile) the code

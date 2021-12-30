@@ -10,23 +10,18 @@ Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
 
-<PersonForm AddPersonEventCallback="AddPersonOnClickEventCallback"/>
+@* <button> will intrisically call StateHasChanged() *@
+<button @onclick="(() => _currentSelectedPerson = null)">New Person</button>
+
+<PersonForm AddPersonEventCallback="AddPersonOnClickEventCallback"
+            Person="_currentSelectedPerson"/>
+
+<button @onclick="DeletePersonOnClick">
+    Delete @(_currentSelectedPerson?.DisplayName ?? "no selection")
+</button>
 
 @foreach(IPerson person in PersonRepository.GetPeople())
 {
-   <PersonRenderer Person="person"/> 
-   <button @onclick="DeletePersonOnClick">
-        Delete Person
-   </button>
-}
-
-@code {
-    [Inject]
-    private IPersonRepository PersonRepository { get; set; }
-
-    private void AddPersonOnClickEventCallback()
-    {
-        StateHasChanged();
-    }
-
+   <PersonRenderer Person="person"
+                   OnClickPersonEventCallback="SetCurrentSelectionOnClick"/>
 }

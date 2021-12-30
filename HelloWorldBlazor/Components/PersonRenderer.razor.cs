@@ -7,5 +7,13 @@ namespace HelloWorldBlazor.Components
     {
         [Parameter]
         public IPerson Person { get; set; }
+        [Parameter]
+        public EventCallback<IPerson> OnClickPersonEventCallback { get; set; }
+
+        private void FireOnClickPersonEventCallback()
+        {
+            if (OnClickPersonEventCallback.HasDelegate)
+                OnClickPersonEventCallback.InvokeAsync(Person);
+        }
     }
 }
