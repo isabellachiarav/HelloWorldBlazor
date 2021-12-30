@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hunter.freeman\\source\\repos\\HelloWorldBlazor\\HelloWorldBlazor\\HelloWorldBlazor.csproj": {}
+    "C:\\src\\HelloWorldBlazor\\HelloWorldBlazor\\HelloWorldBlazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hunter.freeman\\source\\repos\\HelloWorldBlazor\\HelloWorldBlazor\\HelloWorldBlazor.csproj": {
+    "C:\\src\\HelloWorldBlazor\\HelloWorldBlazor\\HelloWorldBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hunter.freeman\\source\\repos\\HelloWorldBlazor\\HelloWorldBlazor\\HelloWorldBlazor.csproj",
+        "projectUniqueName": "C:\\src\\HelloWorldBlazor\\HelloWorldBlazor\\HelloWorldBlazor.csproj",
         "projectName": "HelloWorldBlazor",
-        "projectPath": "C:\\Users\\hunter.freeman\\source\\repos\\HelloWorldBlazor\\HelloWorldBlazor\\HelloWorldBlazor.csproj",
-        "packagesPath": "C:\\Users\\hunter.freeman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hunter.freeman\\source\\repos\\HelloWorldBlazor\\HelloWorldBlazor\\obj\\",
+        "projectPath": "C:\\src\\HelloWorldBlazor\\HelloWorldBlazor\\HelloWorldBlazor.csproj",
+        "packagesPath": "C:\\Users\\Isabella.Chiaravallo\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\HelloWorldBlazor\\HelloWorldBlazor\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hunter.freeman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Isabella.Chiaravallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

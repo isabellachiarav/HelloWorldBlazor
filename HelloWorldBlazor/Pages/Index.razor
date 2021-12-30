@@ -15,6 +15,9 @@ Welcome to your new app.
 @foreach(IPerson person in PersonRepository.GetPeople())
 {
    <PersonRenderer Person="person"/> 
+   <button @onclick="DeletePersonOnClick">
+        Delete Person
+   </button>
 }
 
 @code {
@@ -25,4 +28,5 @@ Welcome to your new app.
     {
         StateHasChanged();
     }
+
 }

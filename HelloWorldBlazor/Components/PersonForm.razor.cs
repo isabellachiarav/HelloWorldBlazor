@@ -22,17 +22,12 @@ namespace HelloWorldBlazor.Components
 
             if(AddPersonEventCallback.HasDelegate)
                 AddPersonEventCallback.InvokeAsync();
-
-            PersonRepository.TryUpdatePerson(new Person(_firstName, _lastName));
-
-
         }
 
         bool success;
         string[] errors = { };
-
-
-
+        MudTextField<string> pwField1;
+        MudForm form;
 
 
     }

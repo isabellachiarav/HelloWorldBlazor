@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HelloWorldBlazor
 build_property.RootNamespace = HelloWorldBlazor
-build_property.ProjectDir = C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor\
+build_property.ProjectDir = C:\src\HelloWorldBlazor\HelloWorldBlazor\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hunter.freeman\source\repos\HelloWorldBlazor\HelloWorldBlazor
+build_property.MSBuildProjectDirectory = C:\src\HelloWorldBlazor\HelloWorldBlazor
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/App.razor]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Components/PersonForm.razor]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/Components/PersonForm.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQZXJzb25Gb3JtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Components/PersonRenderer.razor]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/Components/PersonRenderer.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQZXJzb25SZW5kZXJlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Pages/Counter.razor]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Pages/FetchData.razor]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Pages/Index.razor]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Shared/MainLayout.razor]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Shared/NavMenu.razor]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Shared/SurveyPrompt.razor]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/_Imports.razor]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Pages/Error.cshtml]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Pages/_Host.cshtml]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hunter.freeman/source/repos/HelloWorldBlazor/HelloWorldBlazor/Pages/_Layout.cshtml]
+[C:/src/HelloWorldBlazor/HelloWorldBlazor/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

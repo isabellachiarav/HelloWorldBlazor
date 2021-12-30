@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8hYYSAh30KF/QAs2idWilyyjqcb1khQo1Dq5NfnSeAk=",
+  "Hash": "jquUQw3wNlvLEXebLa0O+CRRkQbQbV6c6yfdVCDC5iQ=",
   "Source": "HelloWorldBlazor",
   "BasePath": "_content/HelloWorldBlazor",
   "Mode": "Default",
@@ -10,51 +10,17 @@
     {
       "Name": "HelloWorldBlazor\\wwwroot",
       "Source": "HelloWorldBlazor",
-      "ContentRoot": "C:\\Users\\hunter.freeman\\source\\repos\\HelloWorldBlazor\\HelloWorldBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\src\\HelloWorldBlazor\\HelloWorldBlazor\\wwwroot\\",
       "BasePath": "_content/HelloWorldBlazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\hunter.freeman\\.nuget\\packages\\mudblazor\\6.0.2\\staticwebassets\\MudBlazor.min.css",
-      "SourceId": "MudBlazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hunter.freeman\\.nuget\\packages\\mudblazor\\6.0.2\\staticwebassets\\",
-      "BasePath": "_content/MudBlazor",
-      "RelativePath": "MudBlazor.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hunter.freeman\\.nuget\\packages\\mudblazor\\6.0.2\\staticwebassets\\MudBlazor.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\hunter.freeman\\.nuget\\packages\\mudblazor\\6.0.2\\staticwebassets\\MudBlazor.min.js",
-      "SourceId": "MudBlazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hunter.freeman\\.nuget\\packages\\mudblazor\\6.0.2\\staticwebassets\\",
-      "BasePath": "_content/MudBlazor",
-      "RelativePath": "MudBlazor.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hunter.freeman\\.nuget\\packages\\mudblazor\\6.0.2\\staticwebassets\\MudBlazor.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\hunter.freeman\\source\\repos\\HelloWorldBlazor\\HelloWorldBlazor\\wwwroot\\css\\site.css",
+      "Identity": "C:\\src\\HelloWorldBlazor\\HelloWorldBlazor\\wwwroot\\css\\site.css",
       "SourceId": "HelloWorldBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hunter.freeman\\source\\repos\\HelloWorldBlazor\\HelloWorldBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\src\\HelloWorldBlazor\\HelloWorldBlazor\\wwwroot\\",
       "BasePath": "_content/HelloWorldBlazor",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\hunter.freeman\\source\\repos\\HelloWorldBlazor\\HelloWorldBlazor\\wwwroot\\favicon.ico",
+      "Identity": "C:\\src\\HelloWorldBlazor\\HelloWorldBlazor\\wwwroot\\favicon.ico",
       "SourceId": "HelloWorldBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hunter.freeman\\source\\repos\\HelloWorldBlazor\\HelloWorldBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\src\\HelloWorldBlazor\\HelloWorldBlazor\\wwwroot\\",
       "BasePath": "_content/HelloWorldBlazor",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -83,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Isabella.Chiaravallo\\.nuget\\packages\\mudblazor\\6.0.2\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Isabella.Chiaravallo\\.nuget\\packages\\mudblazor\\6.0.2\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Isabella.Chiaravallo\\.nuget\\packages\\mudblazor\\6.0.2\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Isabella.Chiaravallo\\.nuget\\packages\\mudblazor\\6.0.2\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Isabella.Chiaravallo\\.nuget\\packages\\mudblazor\\6.0.2\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Isabella.Chiaravallo\\.nuget\\packages\\mudblazor\\6.0.2\\staticwebassets\\MudBlazor.min.js"
     }
   ]
 }
