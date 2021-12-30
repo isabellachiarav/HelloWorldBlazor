@@ -1,0 +1,12 @@
+﻿[]Unit Tests
+
+[]Add UI Library
+
+[]Make a CRUD application
+	[X]Create
+	[X]Read
+	[]Update
+	[]Delete
+
+[]User Authentication
+[]User Authorization
