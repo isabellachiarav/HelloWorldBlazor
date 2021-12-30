@@ -1,12 +1,11 @@
-﻿[]Unit Tests
-
-[]Add UI Library
+﻿[X]Add UI Library 
 
 []Make a CRUD application
-	[X]Create
-	[X]Read
-	[]Update
-	[]Delete
+	[X]Create // Add IPerson to a repository (repository meaning container - List<T> - of IPerson)
+	[X]Read // Return a container - IEnumerable<T> - of IPerson. IEnumerable because the used should not be able to call people.Add(new Person()); IEnumerable does not expose the Add method but List<T> does.
+	[]Update // Change in the repository an IPerson instance's first name - and other properties.
+	[]Delete // Remove an instance of IPerson from the repository
 
-[]User Authentication
-[]User Authorization
+[]Unit Tests // Don't worry about this for now
+[]User Authentication // Don't worry about this for now
+[]User Authorization // Don't worry about this for now

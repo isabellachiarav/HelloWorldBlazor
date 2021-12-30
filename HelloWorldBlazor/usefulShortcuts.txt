@@ -1,0 +1,26 @@
+﻿ctrl + f // find in file
+ctrl + shift + f // find in file everywhere
+
+ctrl + , // find file everywhere
+
+alt + shift + (down or up arrow) // Multiple cursor above or below
+alt + shift + . // Multiple cursor next occurence of text that is equivalent to the current selected text
+
+ctrl + a // highlight all contents of the file
+ctrl + x // when highlighting a line will cut selection otherwise will cut line
+ctrl + c // when highlighting a line will copy selection otherwise will copy line
+ctrl + v // paste clipboard
+ctrl + shift + v // paste clipboard (with history)
+
+home // beggining of the line
+end // end of the line
+
+ctrl + home // beginning of the document
+ctrl + end // end of the document
+
+ctrl + f5 // run without debugging
+f5 // run WITH debugging
+
+f7 // when in .razor or .razor.cs file go to other
+
+f12 // Go to definition
