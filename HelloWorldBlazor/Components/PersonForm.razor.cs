@@ -39,11 +39,5 @@ namespace HelloWorldBlazor.Components
                 AddPersonEventCallback.InvokeAsync();
         }
 
-        bool success;
-        string[] errors = { };
-        MudTextField<string> pwField1;
-        MudForm form;
-
-
     }
 }

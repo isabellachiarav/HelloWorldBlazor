@@ -19,16 +19,3 @@
     Add Person
 </button>
 
- <div style="max-width: 400px;">
-    <MudCard>
-        <MudCardContent>
-            <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
-                <MudTextField T="string" Label="First Name" Required="true" RequiredError="First name is required!"/>
-                <MudTextField T="string" Label="Last Name" Required="true" RequiredError="Last name is required!"/>
-            </MudForm>
-        </MudCardContent>
-        <MudCardActions>
-            <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!success)" Class="ml-auto">Update</MudButton>
-        </MudCardActions>
-    </MudCard>
-</div>
