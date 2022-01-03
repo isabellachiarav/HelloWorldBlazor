@@ -13,7 +13,8 @@ Welcome to your new app.
 @* <button> will intrisically call StateHasChanged() *@
 <button @onclick="(() => _currentSelectedPerson = null)">New Person</button>
 
-<PersonForm AddPersonEventCallback="AddPersonOnClickEventCallback"
+<PersonForm @ref="_personForm"
+            AddPersonEventCallback="AddPersonOnClickEventCallback"
             Person="_currentSelectedPerson"/>
 
 <button @onclick="DeletePersonOnClick">

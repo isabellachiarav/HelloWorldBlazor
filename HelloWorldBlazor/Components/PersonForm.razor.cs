@@ -15,11 +15,11 @@ namespace HelloWorldBlazor.Components
         [Parameter]
         public IPerson Person { get; set; }
 
-        private PersonFormModel _personFormModel = new PersonFormModel();
+        public PersonFormModel _personFormModel = new PersonFormModel();
 
         private void OnValidSubmit(EditContext context)
         {
-            if(Person is null)
+            if (Person is null)
             {
                 AddPersonOnClick();
             }
@@ -37,19 +37,32 @@ namespace HelloWorldBlazor.Components
             Person.LastName = _personFormModel.LastName;
 
             PersonRepository.TryUpdatePerson(Person);
-            
-            if(AddPersonEventCallback.HasDelegate)
+
+            if (AddPersonEventCallback.HasDelegate)
                 AddPersonEventCallback.InvokeAsync();
         }
-        
+
         private void AddPersonOnClick()
         {
             PersonRepository.TryAddPerson(
                 new Person(_personFormModel.FirstName, _personFormModel.LastName)
             );
-            
-            if(AddPersonEventCallback.HasDelegate)
+
+            if (AddPersonEventCallback.HasDelegate)
                 AddPersonEventCallback.InvokeAsync();
+
+            _personFormModel = new PersonFormModel();
+        }
+
+        public void SetFormTarget(IPerson person)
+        {
+            _personFormModel = new PersonFormModel
+            {
+                FirstName = person.FirstName,
+                LastName = person.LastName
+            };
+
+            StateHasChanged();
         }
 
         public class PersonFormModel : IPerson
