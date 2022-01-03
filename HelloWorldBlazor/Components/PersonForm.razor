@@ -1,21 +1,19 @@
 ﻿@using System.ComponentModel.DataAnnotations
+@using HelloWorldBlazor.Interfaces
+@using HelloWorldBlazor.Classes
 
-<input type="text"
-        @bind="_firstName"
-        @bind:event="oninput"/>
-
-<div>
-    @_firstName
+<div style="max-width: 400px;">
+    <EditForm Model="@_personFormModel" OnValidSubmit="OnValidSubmit">
+        <DataAnnotationsValidator />
+        <MudCard>
+            <MudCardContent>
+                <MudTextField Label="First Name" @bind-Value="_personFormModel.FirstName" For="@(() => _personFormModel.FirstName)" />
+                <MudTextField Label="Last Name" @bind-Value="_personFormModel.LastName" For="@(() => _personFormModel.LastName)" />
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Update</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </EditForm>
 </div>
-<input type="text"
-        @bind="_lastName"
-        @bind:event="oninput"/>
-
-<div>
-    @_lastName
-</div>
-
-<button @onclick="AddPersonOnClick">
-    Add Person
-</button>
 

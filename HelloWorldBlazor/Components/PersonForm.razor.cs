@@ -1,7 +1,7 @@
 ﻿using HelloWorldBlazor.Classes;
 using HelloWorldBlazor.Interfaces;
 using Microsoft.AspNetCore.Components;
-using MudBlazor;
+using Microsoft.AspNetCore.Components.Forms;
 
 namespace HelloWorldBlazor.Components
 {
@@ -15,29 +15,49 @@ namespace HelloWorldBlazor.Components
         [Parameter]
         public IPerson Person { get; set; }
 
-        private string _firstName = string.Empty;
-        private string _lastName = string.Empty;
-        private Guid? _previousPersonId = Guid.Empty;
+        private PersonFormModel _personFormModel = new PersonFormModel();
 
-        protected override void OnParametersSet()
+        private void OnValidSubmit(EditContext context)
         {
-            if((Person?.Id ?? null) != _previousPersonId)
+            if(Person is null)
             {
-                Person = new Person(string.Empty, string.Empty);
+                AddPersonOnClick();
+            }
+            else
+            {
+                UpdatePersonOnClick();
             }
 
-            _previousPersonId = Person.Id;
-
-            base.OnParametersSet();
+            StateHasChanged();
         }
 
+        private void UpdatePersonOnClick()
+        {
+            Person.FirstName = _personFormModel.FirstName;
+            Person.LastName = _personFormModel.LastName;
+
+            PersonRepository.TryUpdatePerson(Person);
+            
+            if(AddPersonEventCallback.HasDelegate)
+                AddPersonEventCallback.InvokeAsync();
+        }
+        
         private void AddPersonOnClick()
         {
-            PersonRepository.TryAddPerson(new Person(_firstName, _lastName));
-
+            PersonRepository.TryAddPerson(
+                new Person(_personFormModel.FirstName, _personFormModel.LastName)
+            );
+            
             if(AddPersonEventCallback.HasDelegate)
                 AddPersonEventCallback.InvokeAsync();
         }
 
+        public class PersonFormModel : IPerson
+        {
+            public Guid Id { get; } = Guid.NewGuid();
+            public string FirstName { get; set; } = string.Empty;
+            public string LastName { get; set; }
+            public string DisplayName => $"{FirstName} {LastName}";
+        }
     }
 }

@@ -33,20 +33,9 @@ namespace HelloWorldBlazor.Pages
             StateHasChanged();
         }
 
-        UpdatedPersonForm model = new UpdatedPersonForm();
-        public class UpdatedPersonForm
-        {
-            public string UpdatedFirstName { get; set; }
-            public string UpdatedLastName { get; set; }
-        }
+        
 
-        private void OnValidSubmit(EditContext context)
-        {
-            _currentSelectedPerson.FirstName = model.UpdatedFirstName;
-            _currentSelectedPerson.LastName = model.UpdatedFirstName;
-            PersonRepository.TryUpdatePerson(_currentSelectedPerson);
-            StateHasChanged();
-        }
+        
        
     }
 }

@@ -14,6 +14,5 @@ namespace HelloWorldBlazor.Classes
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string DisplayName => $"{FirstName} {LastName}";
-        
     }
 }
